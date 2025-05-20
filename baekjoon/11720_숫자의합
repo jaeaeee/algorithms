@@ -1,0 +1,22 @@
+// 📌 문제: https://www.acmicpc.net/problem/11720
+// ✅ 제목: 숫자의 합 (브론즈2)
+// ✅ 핵심: 문자열로 입력된 숫자 N자리에서 각 자리 숫자의 합을 구하는 문제
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int N = sc.nextInt();              // 숫자의 자릿수
+        String number = sc.next();         // 공백 없이 들어오는 숫자 N자리 문자열
+        int sum = 0;
+
+        for (int i = 0; i < N; i++) {
+            // 각 자리 문자를 정수로 변환하여 더함
+            sum += number.charAt(i) - '0';
+        }
+
+        System.out.println(sum);
+    }
+}
