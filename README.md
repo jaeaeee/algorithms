@@ -1,4 +1,5 @@
-Record of algorithm learning and problem solving in Java.
+📌 **Record Algorithm Learning and Problem Solving**
+
 
 
 - `daily/`: 알고리즘 문제 풀이 코드
