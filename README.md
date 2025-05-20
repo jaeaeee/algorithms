@@ -1,5 +1,5 @@
-알고리즘 학습 및 문제 풀이
+Record of algorithm learning and problem solving in Java.
 
-## 📂 폴더 구조
+
 - `daily/`: 알고리즘 문제 풀이 코드
 - `baekjoon/`: 백준에서 푼 문제 정리
